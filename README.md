@@ -1,4 +1,4 @@
 # hello-world
 Just first step...
-Hello, every body!
-Java is intresting language.
+Hello, everybody!
+Java is interesting language.
