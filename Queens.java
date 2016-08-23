@@ -1,3 +1,6 @@
+/** This class contains metods for finding all possible combinations of 8 chess queens
+  * on the chess board 8*8, such that they don't threaten each other.
+  * /
 public class Queens {
 	private static int size = 8;
 	
