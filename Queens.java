@@ -1,7 +1,7 @@
 /**
  * This class contains methods for finding all possible combinations of 8 chess queens
  * on the chess board 8*8, such that they don't threaten each other. Also can to change
- * size of board in the corresponding fild.
+ * size of board in the corresponding field.
  * 
  * @author e-polischuk
  */
