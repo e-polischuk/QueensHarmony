@@ -1,8 +1,9 @@
 /**
- * This class contains metods for finding all possible combinations of 8 chess queens
- * on the chess board 8*8, such that they don't threaten each other.
- * @autor Jenya Polischuk
+ * This class contains methods for finding all possible combinations of 8 chess queens
+ * on the chess board 8*8, such that they don't threaten each other. Also can to change
+ * size of board in the corresponding fild.
  * 
+ * @author e-polischuk
  */
 public class Queens {
 	private static int size = 8;
@@ -53,7 +54,7 @@ public class Queens {
 		}
 	}
 		
-	public int[] swapNext(int[] a) {
+	private int[] swapNext(int[] a) {
 		int i = a.length - 2;
 		while(i >= 0) {
 			if(a[i] < a[i + 1]) break;
@@ -78,13 +79,13 @@ public class Queens {
 		return a;
 	}
 	
-	public int factor(int n) {
+	private int factor(int n) {
         	int f = 1;
         	for (int i = 2; i <= n; i++) f *= i;
         	return f;
     	}
     	
-	public int[] getIndexArray(int n) {
+	private int[] getIndexArray(int n) {
 		int[] index = new int[n];
 		for(int i = 0; i < n; i++) index[i] = i;
 		return index;
